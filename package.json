@@ -1,0 +1,25 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.7.5",
+        "lodash": "^4.17.21",
+        "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "@inertiajs/vue3": "^1.0.7",
+        "@vitejs/plugin-vue": "^4.2.3",
+        "bootstrap": "5.2.3",
+        "bootstrap-icons": "^1.10.2",
+        "vue": "^3.2.36",
+        "vue-loader": "^17.0.1"
+    },
+    "alias": {
+        "@": "/resources/js"
+    }
+}
