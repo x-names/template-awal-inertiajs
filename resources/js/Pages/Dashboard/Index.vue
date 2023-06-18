@@ -6,7 +6,7 @@
     <AppHead title="Dashboard" />
     <PageHeading :breadcrumb="[{title: 'Dashboard', currentPage: true}]" title="Dashboard" description="Dashboard Page"/>
     <div class="page-content">
-        <div class="min-vh-100">
+        <div>
             <p>Test Dashboard</p>
         </div>
     </div>

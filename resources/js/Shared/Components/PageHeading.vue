@@ -27,7 +27,7 @@ onMounted(() => {
                 <div class="col-12 col-md-7 order-md-1 order-last">
                     <h3>
                         {{ title }}
-                        <span><button type="button" class="btn btn-sm text-white" data-bs-toggle="tooltip" :title="description" style="margin-top: -7px;">
+                        <span><button type="button" class="btn btn-sm p-0" data-bs-toggle="tooltip" :title="description" style="margin-top: -6px;">
                                 <i class="bi bi-question-circle-fill"></i></button></span>
                     </h3>
                 </div>

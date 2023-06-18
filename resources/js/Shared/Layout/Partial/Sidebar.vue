@@ -1,6 +1,18 @@
 <script setup>
 import MazSidebarItem from '@/Shared/Components/MazSidebarItem.vue';
-import { Link } from '@inertiajs/vue3';
+import { Link, router } from '@inertiajs/vue3';
+import { onMounted } from 'vue';
+
+function hideSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.remove('active');
+    sidebar.classList.add('inactive');
+}
+
+router.on('finish', () => {
+    hideSidebar();
+});
+
 </script>
 
 <template>

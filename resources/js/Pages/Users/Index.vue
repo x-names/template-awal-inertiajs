@@ -50,7 +50,7 @@ watch(search, debounce(function (value) {
 <template>
     <Layout>
         <AppHead title="Users" />
-        <PageHeading :breadcrumb="[{ title: 'User', currentPage: true }]" title="User" description="User adalah semua pengguna terdaftar yang dapat mengakses aplikasi, termasuk guru, siswa, orang tua hingga para staff." />
+        <PageHeading :breadcrumb="[{ title: 'User', currentPage: true }]" title="User" description="User adalah semua pengguna terdaftar yang dapat mengakses aplikasi." />
         <div class="page-content">
             <div class="row">
                 <div class="col-md-12">

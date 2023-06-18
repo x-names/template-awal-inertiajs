@@ -9,6 +9,7 @@ use Inertia\Inertia;
 
 class AuthController extends Controller
 {
+    // We are using route from breeze, so we don't need this
     // public function index()
     // {
     //     return Inertia::render('Auth/Login',[

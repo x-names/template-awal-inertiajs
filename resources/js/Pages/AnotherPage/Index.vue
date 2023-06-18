@@ -9,14 +9,14 @@ import Layout from '@/Shared/Layout/MasterDataLayout.vue'
 
 <template>
     <Layout>
-        <AppHead title="Branches" />
-        <PageHeading :breadcrumb="[{ title: 'Branches', currentPage: true }]" title="Branches" description="Describe here" />
+        <AppHead title="Another Page" />
+        <PageHeading :breadcrumb="[{ title: 'Another Page', currentPage: true }]" title="Another Page" description="Describe here" />
         <div class="page-content">
             <div class="row">
                 <div class="col-md-12">
                     <FlashMessage :flash="$page?.props?.flash ?? ''" />
                     <Card class="mt-4">
-                        Halo from Branches
+                        Halo from another Page
                     </Card>
                 </div>
             </div>

@@ -1,18 +1,19 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\MasterData;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 
-class CompanyController extends Controller
+class AnotherPageController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return Inertia::render('Companies/Index');
+        return Inertia::render('AnotherPage/Index');
     }
 
     /**
